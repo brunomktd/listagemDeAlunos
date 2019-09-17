@@ -1,8 +1,6 @@
 const app = require('./server');
 
 
-// app.use('/api')
-
 app.get('/cadastro', (req, res) =>{
     res.send(`<!DOCTYPE html>
     <html lang="pt-br">
